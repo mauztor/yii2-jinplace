@@ -5,7 +5,8 @@ This is the [The jinplace jQuery plugin](https://bitbucket.org/itinken/jinplace)
 
 Controller action example:
 
-``` public function actionAjaxupdate($id)
+``` 
+public function actionAjaxupdate($id)
     {
         if (Yii::$app->request->isAjax) {
             $post = Yii::$app->request->post();
@@ -23,4 +24,3 @@ Controller action example:
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
-    ```
