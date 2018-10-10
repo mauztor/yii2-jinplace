@@ -1,7 +1,7 @@
 <?php
 
 
-namespace mauztor\yii2-jinplace;
+namespace mauztor\jinplace;
 
 use yii\web\AssetBundle;
 

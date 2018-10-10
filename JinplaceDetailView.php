@@ -8,7 +8,7 @@
   a written permission.
  */
 
-namespace mauztor\yii2-jinplace;
+namespace mauztor\jinplace;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
