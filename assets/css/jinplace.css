@@ -1,0 +1,31 @@
+/*
+ *_ _   _
+ (_) |_| | _____  _ __ ___
+ | | __| |/ / _ \| '_ ` _ \
+ | | |_|   < (_) | | | | | |
+ |_|\__|_|\_\___/|_| |_| |_|
+ *
+*/
+/* 
+    Created on : 13.09.2017, 11:39:26
+    Author     : polet
+*/
+
+.jinplace-editable {
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    text-decoration: underline dotted;
+}
+
+.jinplace-haserror {
+    color: #a94442;
+}
+
+.jinplace-editable .form-control {
+    padding: 0;
+    padding-left: 5px; 
+    height: 24px;
+    margin-top: -2px;
+    text-decoration:none
+}
