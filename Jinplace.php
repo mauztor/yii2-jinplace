@@ -1,16 +1,10 @@
 <?php
 
 /*
- * _ _   _
-  (_) |_| | _____  _ __ ___
-  | | __| |/ / _ \| '_ ` _ \
-  | | |_|   < (_) | | | | | |
-  |_|\__|_|\_\___/|_| |_| |_|
- * 
  * 
  * 
  * <?=
-  \frontend\widgets\jinplace\Jinplace::widget([
+  \mauztor\jinplace\Jinplace::widget([
   'model' => $model,
   'attribute' => 'region',
   'clientOptions' => [
@@ -23,10 +17,15 @@
  *
  */
 
-namespace frontend\widgets\jinplace;
+namespace mauztor\jinplace;
 
 use yii\helpers\Html;
 use yii\widgets\InputWidget;
+
+/**
+ * Class Jinplace
+ * @author Poletaev Aleksey <mauztor@mail.ru>
+ */
 
 class Jinplace extends InputWidget
 {
